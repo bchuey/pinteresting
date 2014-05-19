@@ -42,6 +42,7 @@ gem 'bootstrap-sass'
 
 # Devise - create user accounts
 gem 'devise', '~> 3.2.4'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do 
 	gem 'sqlite3'
