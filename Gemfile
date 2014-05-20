@@ -46,6 +46,9 @@ gem 'devise', '~> 3.2.4'
 # Paperclip - allows to add images
 gem 'paperclip', '~> 3.0'
 
+# Amazon s3
+gem 'aws-sdk', '~> 1.20.0'
+
 group :development, :test do 
 	gem 'sqlite3'
 end
